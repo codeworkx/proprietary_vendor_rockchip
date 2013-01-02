@@ -25,7 +25,14 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libMali.so:system/lib/libMali.so \
     $(LOCAL_PATH)/proprietary/system/lib/libUMP.so:system/lib/libUMP.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libril-rk29-dataonly.so:system/lib/libril-rk29-dataonly.so
+    $(LOCAL_PATH)/proprietary/system/lib/libasound.so:system/lib/libasound.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libion.so:system/lib/libion.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libril-rk29-dataonly.so:system/lib/libril-rk29-dataonly.so \
+    $(LOCAL_PATH)/proprietary/system/lib/librkswscale.so:system/lib/librkswscale.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libvpu.so:system/lib/libvpu.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
@@ -80,3 +87,28 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/rk29-keypad.kl:system/usr/keylayout/rk29-keypad.kl \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/rkxx-remotectl.kl:system/usr/keylayout/rkxx-remotectl.kl
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/init/00main:system/usr/share/alsa/init/00main \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/init/default:system/usr/share/alsa/init/default \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/init/hda:system/usr/share/alsa/init/hda \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/init/help:system/usr/share/alsa/init/help \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/init/info:system/usr/share/alsa/init/info \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/init/test:system/usr/share/alsa/init/test \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
+    $(LOCAL_PATH)/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
