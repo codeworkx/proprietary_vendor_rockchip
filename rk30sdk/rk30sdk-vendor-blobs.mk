@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4329_wapi.bin:system/etc/firmware/fw_bcm4329_wapi.bin \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4330.bin:system/etc/firmware/fw_bcm4330.bin \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/fw_bcm4330_apsta.bin:system/etc/firmware/fw_bcm4330_apsta.bin \
-    $(LOCAL_PATH)/proprietary/system/etc/firmware/nvram.txt:proprietary/system/etc/firmware/nvram.txt \
+    $(LOCAL_PATH)/proprietary/system/etc/firmware/nvram.txt:system/etc/firmware/nvram.txt \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/nvram_4330.txt:system/etc/firmware/nvram_4330.txt \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/nvram_B23.txt:system/etc/firmware/nvram_B23.txt \
     $(LOCAL_PATH)/proprietary/system/etc/firmware/nvram_RK901.txt:system/etc/firmware/nvram_RK901.txt \
